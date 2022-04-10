@@ -3,8 +3,15 @@
 ## 版本说明：
 经过一段时间的兼容性改造，rStore-TypeScript版本已经逐渐完善，rStore-TypeScript版本是rStore-JavaScript版本的兼容和改造版，它的大部分API和JavaScirpt版本相同，但又有所删减和增加，因为依附TypeScript，rStore拥有了很好的API提示和类型提示，但类型提示并不适用于全部API，在下方会详细讨论TypeScript版本的改动。
 
-
 !>rStore-TypeScript目前属于前瞻版本，rStore-Javescript的写法也会逐渐向rStore-TypeScrip靠拢，但rStore-TypeScript尚不稳定，仍然可能存在潜在BUG
+
+##安装rstore-ts：
+
+```powershell
+npm i rstore-react-ts
+```
+
+
 
 ## 删除的API：
 
