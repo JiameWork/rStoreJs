@@ -25,7 +25,7 @@ npm i rstore-react-ts
 1 新增两个核心 API，creatRBus 和 creatRStatus，他们代替了 rStore 实例的可选功能，可选功能会造成实例的不稳定，所以 creatRBus 和 creatRStatus，分别分担两个独立的功能，详情见下方说明
 
 ```javascript
-import { creatRBus, creatRStatus } from "./Rstore/main";
+import { creatRBus, creatRStatus } from "rstore-react";
 
 /*creatRBus配置对象格式
     {
@@ -107,7 +107,7 @@ export default creatRStore <
 
 ```javascript
 import React, { useEffect } from "react";
-import { creatProxy, ProxyTypes } from "./Rstore/main"; //导入creatProxy API和 ProxyTypes 类型
+import { creatProxy, ProxyTypes } from "rstore-react"; //导入creatProxy API和 ProxyTypes 类型
 /* rStore的格式
     {
         //用法没变
