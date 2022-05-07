@@ -28,6 +28,8 @@
 4. 修复对深层次数组或对象解绑响应式会失败的 BUG，封装和删除多余冗杂代码。
 5. 由于近期 rStore 可能会频繁的改善和更新功能，文档会在相对稳定时更新，这里会简单描述新增 API 的使用方法。
 
+注意事项:虽然现在时异步更新，responseCallback 依然会在仓库数据改变时就调用并传入最新值，因为 responseCallback API 的设计初衷并不是依赖于异步的，依赖于异步会让 responseCallback 实用性消弱并且不那么容易理解和使用。
+
 ## useData
 
 ```javascript
