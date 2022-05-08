@@ -30,4 +30,4 @@
   - [actions 的规范管理](actions.md)
   - [多 rsotre 实例并行](mannyStore.md)
 
-- [更新公告](Update.md)
+- [更新公告 **2022.5.7**](Update.md)
